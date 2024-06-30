@@ -9,7 +9,7 @@ function Form() {
   return (
     <>
       <div className="container">
-        
+
         <form
           onSubmit={(event) => {
             setHeading(name);
@@ -19,7 +19,7 @@ function Form() {
         >
           <div className="heading-container">
             <h1 className="heading">
-              Welcome <br /> {isName ? headingText : "User"}
+              Welcome <br /> <span className="username">{isName ? headingText : "User"}</span>
             </h1>
           </div>
 

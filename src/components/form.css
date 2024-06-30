@@ -1,71 +1,71 @@
 @font-face {
-    font-family: Helvetica;
-    src: url(../../helvetica-255-webfont/Helvetica.woff);
+  font-family: Helvetica;
+  src: url(../../helvetica-255-webfont/Helvetica.woff);
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.heading-container{
-    max-width: 20vw;
-    word-wrap: break-word;
+.heading-container {
+  max-width: 20vw;
+  text-align: center;
 }
 
-form input, .submit{
-    border: 1px solid black;
-    border-radius: 20px;
-    height: 1.5em;
-    text-align: center;
-    font-family: "Urbanist", sans-serif;
-    font-weight: 650;
+.username {
+  word-wrap: break-word;
+  text-align: center;
 }
 
-
-
-form input{
-    width: 15rem;
-    height: 2rem;
-    padding: 0.25rem;
-    font-size: 20px;
-
+form input,
+.submit {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 1.5em;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 650;
 }
 
-.submit{
-    font-size: 17px;
-    width: 7rem;
-    margin-top: 1.25em;
-    border-radius: 10px;
-    height: 2em;
-    
+form input {
+  width: 15rem;
+  height: 2rem;
+  padding: 0.25rem;
+  font-size: 20px;
 }
 
-form h1{
-    font-size: 54px;
-    font-family: "Urbanist", sans-serif;
-    font-family: Helvetica;
+.submit {
+  font-size: 17px;
+  width: 7rem;
+  margin-top: 1.25em;
+  border-radius: 10px;
+  height: 2em;
 }
 
-.heading{
-    text-align: center;
-    color: #FFFCE1;
-
+form h1 {
+  font-size: 54px;
+  font-family: "Urbanist", sans-serif;
+  font-family: Helvetica;
 }
 
+.heading {
+  text-align: center;
+  color: #fffce1;
+}
 
-body{
-    background-color: #1C1C1C;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+  padding: 0;
 }
