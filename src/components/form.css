@@ -18,6 +18,11 @@ form{
     align-items: center;
 }
 
+.heading-container{
+    max-width: 20vw;
+    word-wrap: break-word;
+}
+
 form input, .submit{
     border: 1px solid black;
     border-radius: 20px;
