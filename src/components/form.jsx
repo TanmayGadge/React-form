@@ -17,11 +17,12 @@ function Form() {
             event.preventDefault();
           }}
         >
-          <div className="heading-container">
-            <h1 className="heading">
-              Welcome <br /> <span className="username">{isName ? headingText : "User"}</span>
+          {/* <div className="heading-container">
+          </div> */}
+          <h1 className="heading">Welcome</h1>
+            <h1 className="heading user">
+             <span className="username">{isName ? headingText : "User"}</span>
             </h1>
-          </div>
 
           <input
             placeholder="Enter Your Name"

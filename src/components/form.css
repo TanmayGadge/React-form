@@ -16,17 +16,19 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* max-width: 20vw; */
 }
 
-.heading-container {
+/* .heading-container {
   max-width: 20vw;
   text-align: center;
-}
+} */
 
-.username {
+/* .username {
+  max-width: 50%;
   word-wrap: break-word;
   text-align: center;
-}
+} */
 
 form input,
 .submit {
@@ -62,6 +64,11 @@ form h1 {
 .heading {
   text-align: center;
   color: #fffce1;
+}
+
+.heading.user{
+    word-wrap: break-word;
+    max-width: 20vw;
 }
 
 body {
